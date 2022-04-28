@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace IlGala\LaravelWubook\Api;
+namespace dimidrol298\LaravelWubook\Api;
 
 use fXmlRpc\Client;
 use fXmlRpc\Exception\AbstractTransportException;
-use IlGala\WuBook\Exceptions\WuBookException;
+use dimidrol298\LaravelWubook\Exceptions\WuBookException;
 use Carbon\Carbon;
 
 /**

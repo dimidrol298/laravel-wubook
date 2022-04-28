@@ -9,24 +9,24 @@
  * file that was distributed with this source code.
  */
 
-namespace IlGala\LaravelWubook;
+namespace dimidrol298\LaravelWubook;
 
 use fXmlRpc\Client;
 use fXmlRpc\Parser\NativeParser;
 use fXmlRpc\Serializer\NativeSerializer;
 use Illuminate\Contracts\Config\Repository;
 use IlGala\LaravelWubook\Exceptions\WuBookException;
-use IlGala\LaravelWubook\Api\WuBookAuth;
-use IlGala\LaravelWubook\Api\WuBookAvailability;
-use IlGala\LaravelWubook\Api\WuBookCancellationPolicies;
-use IlGala\LaravelWubook\Api\WuBookChannelManager;
-use IlGala\LaravelWubook\Api\WuBookCorporate;
-use IlGala\LaravelWubook\Api\WuBookExtras;
-use IlGala\LaravelWubook\Api\WuBookPrices;
-use IlGala\LaravelWubook\Api\WuBookReservations;
-use IlGala\LaravelWubook\Api\WuBookRestrictions;
-use IlGala\LaravelWubook\Api\WuBookRooms;
-use IlGala\LaravelWubook\Api\WuBookTransactions;
+use dimidrol298\LaravelWubook\Api\WuBookAuth;
+use dimidrol298\LaravelWubook\Api\WuBookAvailability;
+use dimidrol298\LaravelWubook\Api\WuBookCancellationPolicies;
+use dimidrol298\LaravelWubook\Api\WuBookChannelManager;
+use dimidrol298\LaravelWubook\Api\WuBookCorporate;
+use dimidrol298\LaravelWubook\Api\WuBookExtras;
+use dimidrol298\LaravelWubook\Api\WuBookPrices;
+use dimidrol298\LaravelWubook\Api\WuBookReservations;
+use dimidrol298\LaravelWubook\Api\WuBookRestrictions;
+use dimidrol298\LaravelWubook\Api\WuBookRooms;
+use dimidrol298\LaravelWubook\Api\WuBookTransactions;
 
 /**
  * This is the WuBook manager class.

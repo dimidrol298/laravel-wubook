@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace IlGala\LaravelWubook\Api;
+namespace dimidrol298\LaravelWubook\Api;
 
-use IlGala\LaravelWubook\Api\WuBookAuth;
-use IlGala\LaravelWubook\Exceptions\WuBookException;
+use dimidrol298\LaravelWubook\Api\WuBookAuth;
+use dimidrol298\LaravelWubook\Exceptions\WuBookException;
 
 /**
  * This is the WuBook api abstract class.
