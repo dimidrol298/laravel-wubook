@@ -1,14 +1,14 @@
 {
-    "name": "ilgala/laravel-wubook",
+    "name": "dimidrol298/laravel-wubook",
     "type": "library",
     "description": "A WuBook bridge for Laravel 5.x http://wubook.net",
     "keywords": [
-        "IlGala",
+        "dimidrol298",
         "laravel-wubook",
         "laravel-package",
         "WuBook"
     ],
-    "homepage": "https://github.com/ilgala/laravel-wubook",
+    "homepage": "https://github.com/dimidrol298/laravel-wubook",
     "license": "MIT",
     "authors": [
         {
@@ -19,26 +19,17 @@
         }
     ],
     "require": {
-        "php": "~5.6|~7.0",
-        "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
-        "lstrojny/fxmlrpc": "~0.13.0|~0.14.0",
-        "php-http/guzzle6-adapter": "^1.1",
-        "php-http/message": "^1.5",
-        "zendframework/zend-diactoros": "^1.3"
     },
     "require-dev": {
-        "phpunit/phpunit" : "~4.0||~5.0",
-        "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
         "psr-4": {
-            "ilgala\\LaravelWubook\\": "src"
+            "dimidrol298\\LaravelWubook\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ilgala\\LaravelWubook\\": "tests"
+            "dimidrol298\\LaravelWubook\\": "tests"
         }
     },
     "scripts": {
